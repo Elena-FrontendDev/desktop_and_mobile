@@ -1,0 +1,48 @@
+@import url('./__container/video__container.css');
+
+.video {
+    width: 82.2%;
+    margin: 33px auto 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .video {
+        width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        width: 90%;
+        margin-top: 43px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .video {
+        width: 93.7%;
+        margin-top: 37px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .video {
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .video {
+        width: 91.5%;
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video {
+        width: 90%;
+        margin-top: 15px;
+    }
+}

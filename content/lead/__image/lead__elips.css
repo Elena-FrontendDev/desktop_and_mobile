@@ -1,0 +1,27 @@
+.lead__elips {
+    width: 96%;
+    color: transparent;
+    position: absolute;
+    top: 22%;
+    left: 2%;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__elips {
+        top: 24%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__elips {
+        top: 22%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .lead__elips {
+        top: 27%;
+    }
+}

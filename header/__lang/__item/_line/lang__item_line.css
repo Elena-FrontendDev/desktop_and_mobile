@@ -1,0 +1,16 @@
+.lang__item_line {
+    border-bottom-style: solid;
+    margin-right: 19px;
+}
+
+@media screen and (max-width: 375px) {
+    .lang__item_line {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lang__item_line {
+        margin-right: 19px;
+    }
+}

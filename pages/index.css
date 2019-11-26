@@ -1,0 +1,30 @@
+@import url('../vendor/normalize.css');
+@import url('../general/general.css');
+@import url('../header/header.css');
+@import url('../content/content.css');
+@import url('../footer/footer.css');
+
+
+@font-face {
+    src: url('../fonts/Inter-Regular.woff') format('woff');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+
+@font-face {
+    src: url('../fonts/Inter-Black.woff') format('woff');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+.page {
+    max-width: 1440px;
+    max-height: 8080px; 
+    margin: 0 auto;
+}
+
+a:hover {
+    opacity: 0.7;
+}

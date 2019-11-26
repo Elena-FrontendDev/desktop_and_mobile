@@ -1,0 +1,23 @@
+@import url('./comment/comment.css');
+
+.comments__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__container {
+        width: 58%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comments__container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('./_first/video__item_first.css');
+@import url('./__image/video__image.css');
+
+.video__item {
+    position: relative;
+    display: flex;
+    background: #000000;
+    border-radius: 5px;
+    width: 100%;
+    max-height: 323px;
+}
+
+.video__item:hover {
+    opacity: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__item {
+        height: 38vh; 
+    }
+}
+
+@media screen and (max-width: 823px) {
+    .video__item {
+        height: 67vh; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__item {
+        height: 26.1vh; 
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .video__item {
+        height: 50vh; 
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .video__item {
+        height: 26.1vh; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__item {
+        height: 25.8vh; 
+    }
+}

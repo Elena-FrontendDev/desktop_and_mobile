@@ -1,0 +1,20 @@
+.item__subtitle {
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .item__subtitle {
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item__subtitle {
+        line-height: 12px;
+    }
+}

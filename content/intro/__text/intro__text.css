@@ -1,0 +1,35 @@
+@import url('./__plane/text__plane.css');
+
+.intro__text {
+    max-width: 383px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.013em;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-top: 18px;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text {
+        width: 100%;
+        margin-top: 35px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

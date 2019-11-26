@@ -1,0 +1,41 @@
+@import url('./__image/cover__image.css');
+@import url('./__text/cover__text.css');
+
+
+.cover {
+    width: 82.2%;
+    margin: 96px auto 0 auto; 
+    position: relative;
+    background: #2A2C2F;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        margin-top: 106px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 74px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover {
+        margin-top: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 20px;
+    }
+}

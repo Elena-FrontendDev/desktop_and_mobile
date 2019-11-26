@@ -1,0 +1,33 @@
+@import url('./__title/item__title.css');
+@import url('./__subtitle/item__subtitle.css');
+@import url('./__duration/item__duration.css');
+@import url('./__icon/item__icon.css');
+
+.video__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    padding: 30px 150px 30px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__info {
+        padding-right: 30px;
+        padding-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__info {
+        padding: 25px 10px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__info {
+        padding: 16px 0 16px 16px;
+    }
+}

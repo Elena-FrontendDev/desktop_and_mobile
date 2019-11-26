@@ -1,0 +1,48 @@
+.cover__image {
+    width: 100%;
+    min-height: 594px;
+    background: url('./Do_Baikala.png');
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+}
+
+.cover__image:hover {
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__image {
+        min-height: 562px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__image {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cover__image {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .cover__image {
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cover__image {
+        min-height: 272px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__image {
+        min-height: 216px;
+    }
+}

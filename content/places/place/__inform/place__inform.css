@@ -1,0 +1,30 @@
+@import url('./__title/place__title.css');
+@import url('./__website/place__website.css');
+
+.place__inform {
+    width: 100%;
+    max-height: fit-content; 
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 53px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__inform {
+        margin-bottom: 44px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__inform {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__inform {
+        width: 91.5%;
+        margin: 0 auto 36px auto;
+    }
+}

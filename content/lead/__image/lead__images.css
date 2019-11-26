@@ -1,0 +1,21 @@
+@import url('./lead__image.css');
+@import url('./lead__elips.css');
+
+.lead__images {
+    margin-top: 71px;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 414px) {
+    .lead__images {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .lead__images {
+        margin-top: 34px;
+    }
+}
+

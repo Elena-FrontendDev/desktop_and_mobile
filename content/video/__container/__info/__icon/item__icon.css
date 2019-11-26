@@ -1,0 +1,26 @@
+.item__icon {
+    height: 41px;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+}
+
+@media screen and (max-width: 1024px) {
+    .item__icon {
+        top: 10%;
+        left: 7%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item__icon {
+        top: 13%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .item__icon {
+        top: 8%;
+        left: 5%;
+    }
+}
