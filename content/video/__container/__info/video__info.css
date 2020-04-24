@@ -9,8 +9,14 @@
     justify-content: flex-end;
     box-sizing: border-box;
     position: absolute;
+    border-radius: 5px;
     height: 100%;
-    padding: 30px 150px 30px 30px;
+    width: 100%;
+    padding: 30px;
+}
+
+.video__info:hover {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 1024px) {

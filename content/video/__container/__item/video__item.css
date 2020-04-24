@@ -1,4 +1,3 @@
-@import url('./_first/video__item_first.css');
 @import url('./__image/video__image.css');
 
 .video__item {
@@ -8,44 +7,49 @@
     border-radius: 5px;
     width: 100%;
     max-height: 323px;
+    min-height: 323px;
 }
 
-.video__item:hover {
-    opacity: 80%;
+.video__item:first-of-type {
+    background-image: url('/images/Video_Kamchatka.png');
+}
+
+.video__item:nth-of-type(2) {
+    background-image: url('/images/Video_Observatory.png');
 }
 
 @media screen and (max-width: 1024px) {
     .video__item {
-        height: 38vh; 
+        height: 38vh;
     }
 }
 
 @media screen and (max-width: 823px) {
     .video__item {
-        height: 67vh; 
+        height: 67vh;
     }
 }
 
 @media screen and (max-width: 768px) {
     .video__item {
-        height: 26.1vh; 
+        height: 26.1vh;
     }
 }
 
 @media screen and (max-width: 740px) {
     .video__item {
-        height: 50vh; 
+        height: 50vh;
     }
 }
 
 @media screen and (max-width: 479px) {
     .video__item {
-        height: 26.1vh; 
+        height: 26.1vh;
     }
 }
 
 @media screen and (max-width: 320px) {
     .video__item {
-        height: 25.8vh; 
+        height: 25.8vh;
     }
 }
