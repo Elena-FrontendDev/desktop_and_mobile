@@ -1,17 +1,18 @@
 .cover__image {
+    display: block;
     width: 100%;
     min-height: 594px;
     background: url('./Do_Baikala.png');
-    opacity: 0.7;
+    /* opacity: 0.3; */
     background-size: cover;
     background-position: center;
 }
 
-.cover__image:hover {
-    opacity: 0.2;
-}
+/* .cover__image:hover {
+   opacity: 0.8;
+} */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1068px) {
     .cover__image {
         min-height: 562px;
     }

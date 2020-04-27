@@ -12,11 +12,17 @@
     top: 0;
     left: 0;
     right: 0;
+    background: rgba(42, 44, 47, 0.3);
+    transition-duration: 0.5s;
+}
+
+.cover__text:hover {
+    background: rgba(42, 44, 47, 0.8)
 }
 
 @media screen and (max-width: 768px) {
     .cover__text {
-        width: 90%;
+        /* width: 90%; */
         margin: 0 auto;
     }
 }

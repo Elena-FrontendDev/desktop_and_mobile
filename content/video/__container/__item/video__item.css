@@ -6,8 +6,12 @@
     background: #000000;
     border-radius: 5px;
     width: 100%;
-    max-height: 323px;
-    min-height: 323px;
+    /* max-height: 323px;
+    height: 67vh; */
+    padding-bottom: 55.4%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .video__item:first-of-type {
@@ -20,36 +24,36 @@
 
 @media screen and (max-width: 1024px) {
     .video__item {
-        height: 38vh;
+        padding-bottom: 63.8%;
     }
 }
 
-@media screen and (max-width: 823px) {
+/* @media screen and (max-width: 868px) {
     .video__item {
-        height: 67vh;
+        padding-bottom: 71%;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
     .video__item {
-        height: 26.1vh;
+        padding-bottom: 57.1%;
     }
 }
 
 @media screen and (max-width: 740px) {
     .video__item {
-        height: 50vh;
+     padding-bottom: 67%;   
     }
 }
 
 @media screen and (max-width: 479px) {
     .video__item {
-        height: 26.1vh;
+        padding-bottom: 58.3%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .video__item {
-        height: 25.8vh;
+        padding-bottom: 66.7%;
     }
 }

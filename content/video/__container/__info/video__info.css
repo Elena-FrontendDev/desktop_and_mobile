@@ -13,6 +13,7 @@
     height: 100%;
     width: 100%;
     padding: 30px;
+    transition-duration: 0.5s;
 }
 
 .video__info:hover {
@@ -26,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
     .video__info {
         padding: 25px 10px 24px 24px;
     }
