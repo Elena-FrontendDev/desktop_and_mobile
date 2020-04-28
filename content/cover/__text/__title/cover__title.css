@@ -9,7 +9,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1068px) {
     .cover__title {
         width: 56%;
         

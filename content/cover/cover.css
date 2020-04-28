@@ -6,8 +6,12 @@
     width: 82.2%;
     margin: 96px auto 0 auto; 
     position: relative;
-    background: #2A2C2F;
+    /* background: #2A2C2F; */
 }
+
+/* .cover:hover {
+    background: rgba(0, 0, 0, 0.8);
+} */
 
 @media screen and (max-width: 1280px) {
     .cover {
@@ -15,7 +19,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1068px) {
     .cover {
         width: 100%;
         margin-top: 106px;
