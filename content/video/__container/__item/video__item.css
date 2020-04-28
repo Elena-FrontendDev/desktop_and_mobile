@@ -6,8 +6,6 @@
     background: #000000;
     border-radius: 5px;
     width: 100%;
-    /* max-height: 323px;
-    height: 67vh; */
     padding-bottom: 55.4%;
     background-size: cover;
     background-position: center;
@@ -15,11 +13,11 @@
 }
 
 .video__item:first-of-type {
-    background-image: url('/images/Video_Kamchatka.png');
+    background-image: url('../../../../images/Video_Kamchatka.png');
 }
 
 .video__item:nth-of-type(2) {
-    background-image: url('/images/Video_Observatory.png');
+    background-image: url('../../../../images/Video_Observatory.png');
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,12 +25,6 @@
         padding-bottom: 63.8%;
     }
 }
-
-/* @media screen and (max-width: 868px) {
-    .video__item {
-        padding-bottom: 71%;
-    }
-} */
 
 @media screen and (max-width: 768px) {
     .video__item {
@@ -42,7 +34,7 @@
 
 @media screen and (max-width: 740px) {
     .video__item {
-     padding-bottom: 67%;   
+        padding-bottom: 67%;
     }
 }
 

@@ -22,7 +22,6 @@
 
 @media screen and (max-width: 768px) {
     .cover__text {
-        /* width: 90%; */
         margin: 0 auto;
     }
 }
